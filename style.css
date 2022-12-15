@@ -1,0 +1,16 @@
+*,html,body{
+    margin: 0;
+}
+
+.material-symbols-outlined{
+    color: white;
+    margin: 2px;
+    background-color: grey;
+    border: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
