@@ -1,3 +1,12 @@
+var btn = document.getElementById('btn1')
+var count = 0
+
 function toggle(){
-    document.getElementById('btn1').innerHTML= 'toggle_off'
+    count += 1;
+    if(count %2 == 0){
+        btn.innerHTML= 'toggle_off'
+    }else{
+        btn.innerHTML= 'toggle_on'
+    }
 }
+

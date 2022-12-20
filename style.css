@@ -1,16 +1,47 @@
 *,html,body{
     margin: 0;
+    display: flexbox;
 }
 
 .material-symbols-outlined{
     color: white;
-    margin: 2px;
-    background-color: grey;
+    background-color: transparent;
     border: none;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+.content{
+    position: relative;
+    display: flex;
+    margin-left: 6vh;
+    
+}
+
+li{
+    list-style: none;
+    
 }
 
 .navbar{
-    display: flex;
-    justify-content: center;
+    position: absolute;
+    text-align: center;
+    left: 0;
     background-color: gray;
+    height: 100vh;
+    width: 5vh;
+}
+
+.material-symbols-outlined:hover{
+    color: grey;
+    margin: none;
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
