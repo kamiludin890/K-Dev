@@ -19,6 +19,7 @@
     position: relative;
     display: flex;
     margin-left: 6vh;
+    margin-bottom: 20px;
     
 }
 
@@ -44,4 +45,12 @@ li{
     padding-right: 15px;
     padding-top: 8px;
     padding-bottom: 8px;
+}
+
+.img{
+    height: 250px;
+}
+
+.isi_konten{
+    margin-top: 10px;
 }
