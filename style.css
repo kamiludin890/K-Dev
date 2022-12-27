@@ -24,25 +24,30 @@ body{
     padding-bottom: 8px;
 }
 
+
+.content{
+    position: relative;
+    display: flex;
+    margin-left: 6vh;
+    margin-bottom: 20px;
+    
+}
+
 li{
     list-style: none;
     
 }
 
 .tittle{
-    display:inline;
+    display: flex;
+    position:absolute;
     width: 183vh;
     margin-bottom: 25px;
     border-radius: 7.5px;
     margin-top: 5px;
-    background-color: rgba(192,192,192,0.6);
-    color: white;
-    position: relative;
-    display: flex;
-    margin-left: 6vh;
-    margin-bottom: 20px;
-    text-align: center;
-    
+    background-color: rgba(192,192,192,0.4);
+    align-items: center;
+    align-content: center;
 }
 
 
@@ -52,7 +57,7 @@ li{
     left: 0;
     background-color: rgba(192,192,192,0.6);
     height: 100vh;
-    width: 5vh;
+    width: 10vh;
     align-self: baseline;
 }
 
@@ -71,6 +76,7 @@ li{
 }
 
 .isi_konten{
+    display: flex;
     position:static;
     margin-top: 50px;
     display: flex;
